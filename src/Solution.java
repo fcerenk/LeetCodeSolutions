@@ -3,7 +3,7 @@ import java.util.HashMap;
 
 
 class Solution {
-    //1.fisrt approach
+    //1.first approach
     // in here time complexity o(n2) because we have nested loop each of take n element.space comp. o(1) stable
     //this is brute force approach
 
