@@ -3,7 +3,7 @@ public class TwoSum2 {
 
         for(int i =0; i<arr.length-1; i++){
             int complement = target - arr[i];
-            int res = binarySearch(arr,1,arr.length,complement);
+            int res = binarySearch(arr,i+1,arr.length-1,complement);
             if(res != -1){
                 return new int[]{i+1,res+1};
             }
